@@ -1,0 +1,114 @@
+@font-face {
+    font-family: GoodVibes;
+    src: url(../assets/GoodVibesBold-PKrLr.otf);
+}
+
+
+body {
+    text-align: center;
+    background-color: #FAEAB1;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: GoodVibes;
+    font-size: 6rem;
+    color: #C58940;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #C58940;
+    font-weight: 900;
+
+    border: 1rem dotted;
+    
+    padding: 2rem;
+}
+
+h3 {
+    font-family: GoodVibes;
+    font-size: 3rem;
+    color: #C58940;
+}
+
+.container-fluid {
+    padding: 30px 10px;
+}
+
+/* Frame */
+.img {
+    margin: 0;
+}
+
+table {
+    margin: auto;
+}
+tr {
+    margin: 0;
+}
+td {
+    margin: 0;
+}
+
+.button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+
+    font-family: GoodVibes;
+    font-size: 5rem;
+    color: #C58940;
+
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    margin: 0;
+}
+
+#box00 {
+    border-bottom: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+}
+#box01 {
+    border-bottom: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+#box02 {
+    border-bottom: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+#box10 {
+    border-top: 3px solid #C58940;
+    border-bottom: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+}
+#box11 {
+    border-top: 3px solid #C58940;
+    border-bottom: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+#box12 {
+    border-top: 3px solid #C58940;
+    border-bottom: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+#box20 {
+    border-top: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+}
+#box21 {
+    border-top: 3px solid #C58940;
+    border-right: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+#box22 {
+    border-top: 3px solid #C58940;
+    border-left: 3px solid #C58940;
+}
+
