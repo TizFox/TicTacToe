@@ -1,5 +1,5 @@
-var playerSymbol = '<span class="fa-regular fa-circle fa-6x symbol"></span>'
-var AISymbol = '<span class="fa-solid fa-xmark fa-8x symbol"></span>'
+var playerSymbol = "O";
+var AISymbol = "X";
 
 var grid = [
     [0, 0, 0],
