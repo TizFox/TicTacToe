@@ -62,7 +62,7 @@ function playerChoice(cell) {
 
         if (grid[i][j] == 0) {
             grid[i][j] = 1;
-            playerButton.innerText = "O";
+            playerButton.innerText = playerSymbol; //"O";
 
             win = checkWin(grid)
             if (win[0]) {
@@ -119,7 +119,7 @@ function AIChoice() {
         // Update Grid
         grid[i][j] = 2;
         var AIButton = document.getElementById("box" + String(i) + String(j));
-        AIButton.innerText = "X";
+        AIButton.innerText = AISymbol; //"X";
     }
 }
 
